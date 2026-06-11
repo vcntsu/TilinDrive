@@ -1,0 +1,17 @@
+# ══════════════════════════════════════════════
+#  .gitignore - Archivos excluidos del repositorio
+#  SEGURIDAD: Las credenciales NUNCA deben subirse a GitHub
+# ══════════════════════════════════════════════
+
+# EXCLUSIÓN CRÍTICA DE SEGURIDAD (Credenciales privadas de Google API)
+config/credentials.json
+config/token.json
+
+# Carpetas de trabajo temporal y logs locales
+temp/*
+logs/*
+
+# Archivos basura del sistema operativo
+.DS_Store
+*.swp
+*~
