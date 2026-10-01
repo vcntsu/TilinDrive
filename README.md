@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🖥️ Sistema de Respaldo Automatizado en la Nube (Google Drive API v3)
 
 **Asignatura:** Sistemas Operativos - Redes Avanzadas I  
