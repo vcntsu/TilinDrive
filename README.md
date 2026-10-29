@@ -1,4 +1,4 @@
-# 🖥️ Sistema de Respaldo Automatizado en la Nube (Google Drive API v3)
+# 🖥️ Sistema de Respaldo Automatizado en la Nube Google Drive API v3
 
 **Asignatura:** Sistemas Operativos - Redes Avanzadas I  
 **Plataforma:** Ubuntu Server 22.04 LTS  
@@ -119,8 +119,6 @@ Las credenciales privadas de Google Cloud (`credentials.json` y `token.json`) es
 ### Log de respaldo exitoso
 *(Captura: `cat ~/backup_gdrive/logs/backup_YYYYMM.log`)*
 
-### Archivo respaldado en Google Drive
-=======
 # Sistema de Respaldo Automático a Google Drive con Bash 🚀
 
 ## 📋 Descripción del Proyecto
@@ -136,4 +134,3 @@ El sistema se organiza bajo los siguientes componentes estructurales[cite: 2]:
 ## 🛡️ Mejoras Implementadas 
 1. **Limpieza Automática (Mantenimiento de Espacio)**: Función integrada `cleanup_old_backups` que elimina los respaldos con más de 7 días de antigüedad en la nube para optimizar el almacenamiento[cite: 2].
 2. **Notificaciones por Email**: Implementación del paquete `mailutils` para despachar correos informativos al administrador del sistema tras cada ejecución exitosa[cite: 2].
->>>>>>> 578c64977ae320d604fa710ac5d35b813e5aa754
